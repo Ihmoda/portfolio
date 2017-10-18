@@ -1,0 +1,134 @@
+
+body {
+    width: 970px;
+    background-color:#f8f8f8;
+    margin: 0;
+    
+}
+
+
+#banner {
+    width: 970px;
+    height: 60px;
+    background-color:#f8f8f8;
+    padding-bottom: 10px;
+}
+
+#shadows {
+    padding-bottom: 20px;
+}
+
+
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+h2 {
+    padding-left: 400px;
+    display: inline-block;
+}
+
+#content {
+    width: 970px;
+    background: #4d3941; /*for browsers with no gradiant support*/
+    background: linear-gradient(#1c0c10, #6f5964); /* Standard syntax (must be last) */
+    height: 910px;
+    margin: 0 auto;
+}
+
+#janedoe {
+    
+    width: 400px;
+    border: 5px solid #c0c0c0;
+}
+
+.imgdiv {
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 20px 0px 0px 20px;
+}
+
+#about {
+    display: inline-block;
+    width: 494px;
+    height: 273.16px;
+    background: white;
+    margin: 20px 0px 20px 15px;
+    background: linear-gradient(#dbccda, #fefefe);
+    vertical-align: text-top;
+    text-align: left;
+
+}
+
+#aboutheader {
+    width: 494px;
+    height: 30px;
+    background: linear-gradient(#898794, #abaaaf, #898794);
+    margin: 0px;
+    color: white;
+    padding: 10px 0px 0px;
+}
+
+.projects {
+    display: inline-block;
+    width: 292px;
+    height: 560px;
+    background: linear-gradient(#dbccda, #fefefe);
+    margin-left: 20px;
+    vertical-align: text-top;
+}
+
+.projectheads {
+    width: 292px;
+    background: linear-gradient(#898794, #abaaaf, #898794);
+    height: 30px;
+    margin: 0px;
+    color: white;
+    padding: 10px 0px 0px;
+}
+
+.projectimages {
+    width: 292px;
+
+}
+
+.techimages {
+    width: 40px;
+    padding: 5px;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.buttons {
+    display: block;
+    background: #407d61;
+    border-radius: 5px;
+    margin: 0px auto;
+    color: white;
+    border: solid;
+    border-color: black;
+    box-shadow: 3px 3px 3px #888888;
+    margin-top: 5px;
+}
+
+#email, #social {
+    display: block;
+    text-align: center;
+}
+
+
+.socimg {
+    height: 20px;
+    display: inline-block;
+}
+
+.soctxt {
+    display: inline-block;
+}
+
+
+
+
